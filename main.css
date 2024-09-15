@@ -1,0 +1,142 @@
+*{
+}
+.main-header-img{
+    width: 92%;
+    margin-left: 50px;
+    margin-top: -500px;
+    border-radius: 50px;
+    z-index: 10;
+    opacity: 0.7;
+}
+.main-nav{
+    color: white;
+    height: 50px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: black;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;    
+}
+.main-nav-text{
+    display: flex;
+    align-items: center;
+}
+.text{
+    cursor: pointer;
+    font-family: Merriweather;
+    font-size: 18px;
+    margin-left: 40px;
+    z-index: 10;
+}
+.text:hover{
+    border-bottom: 1px solid lightblue;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: wheat
+}
+.header2{
+    cursor: pointer;
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+}
+.box{
+    margin-top: 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+    width: 30%;
+    height: 250px;
+}
+.cards{
+    margin-left: 200px;
+}
+.stocks{
+    margin-left: 40px;
+}
+.box img{
+    height: 200px;
+    margin-top: 2px;
+    margin-left: 20px;
+    transition: 1s linear 0.2s ;
+}
+.card-text{
+    font-family: Protest Guerrilla ;
+    font-size: 40px;
+    margin-left: 20px;
+}
+.cards:hover{
+    background-color: black;
+    color: wheat;
+    box-shadow: 8px 8px 10px wheat;
+}
+.card-text i{
+    font-size: 30px;
+    margin-left: 170px;
+}
+.stocks-text{
+    font-family: Protest Guerrilla ;
+    font-size: 40px;
+    margin-left: 20px;
+}
+.stocks-text i{
+    font-size: 30px;
+    margin-left: 170px;
+}
+.stocks:hover{
+    background-color: black;
+    color: wheat;
+    box-shadow: 8px 8px 10px wheat;
+}
+.main-text{
+    display: flex;
+}
+.line{
+    width: 400px;
+    border-top: 1px solid black;
+}
+.txt p{
+    width: 300px;
+    font-size: 14px;
+    opacity: 0.8;
+}
+.txt span{
+    font-size: 20px;
+    font-weight: bold;
+}
+.txt{
+    line-height: 1.7;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.txt-video video{
+    height: 350px;
+    border-radius: 30px;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+.btn{
+    color: white;
+    height: 30px;
+    border: 1px solid wheat;
+    background: none;
+    border-radius: 30px;
+    margin-left: 30px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: wheat;
+    color: black;
+}
+.txt-img{
+    color: white;
+    position: absolute;
+    z-index: -1;
+}
+a {
+    color: white;
+}
